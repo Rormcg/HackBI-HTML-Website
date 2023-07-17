@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--<link rel="stylesheet" href="style.css">-->
+        <title>HackBI HTML Introduction</title>
+        <style>
+            body {
+                background-color: beige;
+            }
+
+            .title {
+                color: maroon;
+            }
+
+            .holder {
+                text-align: center;
+            }
+
+            .cardinal {
+                height: 200px;
+            }
+
+            .frog {
+                height: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="holder">
+            <h1 class="title">Learn HTML at HackBI!</h1>
+            <img class="cardinal" src="images/hack_bird.jpg" alt="HackBI Cardinal Hack Bird">
+            
+        </div>
+        <div>
+            <h2>Use &lt;h1&gt; or &lt;h2&gt; tags for bolded titles!</h2>
+            <p>
+                &lt;p&gt; tags are useful for writing paragraphs and general text.
+                Inside of the &lt;p&gt; tags, you can use the <strong>&lt;strong&gt; tags to display bolded text.</strong>
+                <u>The &lt;u&gt; tag will underline your text.</u><em> &lt;em&gt; tags are excellent for italicizing your sentences. 
+                <u><strong>Don't be afraid to combine all of the tags!</strong></u></em>
+
+                <br><br>Add an "enter" between lines with the &lt;br&gt; tag.
+                <br><br>Use the &lt;a&gt; tag to create a link to another website, or a link to another page on your site. 
+                To link the website, include: href="https://website.com" inside of the first &lt;a&gt; tag.
+                Click <a href="https://www.hackbi.org">Here</a> to go to the HackBI website.
+                <br><br>Certain special characters are reserved for a specific function in html, and as a result will not work
+                when you try to write them in your paragraphs. An example of this would be the '&lt;' and '&gt;' symbols.
+                html thinks that they are starting or ending a tag, which breaks the html. To get around this, we need to 
+                use special symbols to represent them. '&lt;' can be represented with <strong>&amp;lt;</strong> and '&gt;'
+                can be represented with <strong>&amp;gt;</strong>.
+            </p>
+            <h3>Use &lt;ol&gt; or &lt;ul&gt; to display lists of information!</h3>
+            <p>
+                &lt;ol&gt; (<strong>O</strong>rdered <Strong>L</Strong>ist) will give you a numbered list
+                <ol>
+                    <li>List each item in its own pair of &lt;li&gt; tags</li>
+                    <li>Second Item</li>
+                    <li>Third Item</li>
+                    <li>Fourth Item</li>
+                </ol>
+                &lt;ul&gt; (<strong>U</strong>nordered <strong>L</strong>ist) will give you a bulleted list
+                <ul>
+                    <li>List each item in its own pair of &lt;li&gt; tags</li>
+                    <li>Another Item</li>
+                    <li>More Items</li>
+                    <li>Even More Bulleted Items</li>
+                </ul>
+            </p>
+            <h2>Images</h2>
+            <p>
+                Use the &lt;img&gt; tag to put images into your webpage. To specify what image you want, change the 'src'
+                attribute to point toward the image location. If you were getting the image from another site, this
+                would look like:<br><br>
+                <strong>&lt;img src="https://www.a-website.com/image1.png"&gt;</strong><br><br>
+                If you wanted to add an image from your own file system, then you would do: <br><br>
+                <strong>&lt;img src="path/to/your/file/image2.png"&gt;</strong><br><br>
+                Take this image for instance. I already have 'frog.jpg' in my file system, so I need to specify the location of the image:
+                <br><strong>&lt;img src="images/frog.jpg"&gt;</strong><br><br>
+                <img src="images/frog.jpg" class="frog">
+            </p>
+        </div>
+        <div class="holder">
+            <h2>Click here to see an example website!</h2>
+            <a href="putting-it-together.html"><button>Click!</button></a>
+        </div>
+        
+    </body>
+</html>
