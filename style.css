@@ -1,0 +1,19 @@
+body {
+    background-color: beige;
+}
+
+.title {
+    color: maroon;
+}
+
+.holder {
+    text-align: center;
+}
+
+.cardinal {
+    height: 200px;
+}
+
+.frog {
+    height: 150px;
+}

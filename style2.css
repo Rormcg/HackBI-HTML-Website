@@ -1,0 +1,39 @@
+body {
+    background-image: url("images/space-background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.title {
+    text-align: center;
+    font-family: 'VT323', monospace;
+    font-size: 40px;
+    color: rgb(207, 0, 0);
+}
+
+.body {
+    text-align: center;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: rgb(0, 126, 52);
+
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgb(214, 214, 164);
+    border-radius: 20px;
+}
+
+.horizontal-columns {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.paragraph {
+    text-align: left;
+}
